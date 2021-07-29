@@ -1,7 +1,7 @@
 import re
 
 from aiogram import types
-from aiogram.dispatcher.filters import CommandStart
+from aiogram.dispatcher.filters import CommandStart, ChatTypeFilter
 from aiogram.utils.deep_linking import get_start_link
 
 from loader import dp
