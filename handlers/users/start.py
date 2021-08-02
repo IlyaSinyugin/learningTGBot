@@ -12,7 +12,7 @@ async def bot_start(message: types.Message):
 
     # doesn't get in error handler, deals with try
     try:
-        await message.answer("Not correctly closed <b>tag</b>")
+        await message.answer("Not correctly closed <b>tag<b>")
     except Exception as err:
         await message.answer(f"Not in error handler. Error: {err}")
 
